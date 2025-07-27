@@ -74,8 +74,6 @@ VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 Refer to .env.sample for the exact structure.
 
-```
-
 
 ---
 
