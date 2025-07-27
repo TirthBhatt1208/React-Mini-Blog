@@ -26,17 +26,19 @@ A rich text editor (**TinyMCE**) is integrated for better blog writing experienc
 ---
 
 ## 📂 Folder Structure  
-
+```text
 React-Mini-Blog/
-|│── components/ # Reusable UI components
-|│── pages/ # Application pages (Home, Login, Signup, Post etc.)
-|│── conf/ # Appwrite configuration (conf.js)
-|│── appwrite/ # Appwrite services (auth, post, file functions)
-|│ ├── config/ # Post & File handling functions
-|│── store/ # Redux store (authSlice for login/logout)
-|│── .env.sample # Environment variables sample
-|│── package.json
-|│── README.md
+│── components/ # Reusable UI components
+│── pages/ # Application pages (Home, Login, Signup, Post etc.)
+│── conf/ # Appwrite configuration (conf.js)
+│── appwrite/ # Appwrite services (auth, post, file functions)
+│ ├── config/ # Post & File handling functions
+│── store/ # Redux store (authSlice for login/logout)
+│── .env.sample # Environment variables sample
+│── package.json
+│── README.md
+```
+
 
 yaml
 Copy
@@ -68,6 +70,7 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 Refer to .env.sample for the exact structure.
+```
 
 
 ---
