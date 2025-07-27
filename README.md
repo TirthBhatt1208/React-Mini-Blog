@@ -79,18 +79,18 @@ bash
 Copy
 Edit
 ---
-# Clone the repository
+Clone the repository
 git clone https://github.com/your-username/React-Mini-Blog.git
 ---
-# Go to project folder
+Go to project folder
 cd React-Mini-Blog
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Add .env file based on .env.sample
+Add .env file based on .env.sample
 
-# Run the project
+Run the project
 npm run dev
 ---
 ## 🔐 Authentication & Data Flow
