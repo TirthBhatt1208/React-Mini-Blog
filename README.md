@@ -40,11 +40,6 @@ React-Mini-Blog/
 
 ```
 
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 🔧 Appwrite Configuration (`conf/conf.js`)  
@@ -63,9 +58,6 @@ export default conf;
 ## ⚙️ Environment Variables
 Create a .env file in the project root and add:
 
-ini
-Copy
-Edit
 VITE_APPWRITE_URL=your_appwrite_url
 VITE_APPWRITE_PROJECT_ID=your_project_id
 VITE_APPWRITE_DATABASE_ID=your_database_id
@@ -75,9 +67,6 @@ Refer to .env.sample for the exact structure.
 ```
 ---
 ## 📦 Installation
-bash
-Copy
-Edit
 ---
 Clone the repository
 git clone https://github.com/your-username/React-Mini-Blog.git
