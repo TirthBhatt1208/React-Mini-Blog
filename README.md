@@ -37,6 +37,7 @@ React-Mini-Blog/
 │── .env.sample # Environment variables sample
 │── package.json
 │── README.md
+
 ```
 
 
@@ -58,6 +59,8 @@ const conf = {
 };
 
 export default conf;
+
+export default conf;
 ⚙️ Environment Variables
 Create a .env file in the project root and add:
 
@@ -70,6 +73,7 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 Refer to .env.sample for the exact structure.
+
 ```
 
 
