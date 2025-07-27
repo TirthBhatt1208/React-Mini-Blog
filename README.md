@@ -47,7 +47,7 @@ Edit
 
 ---
 
-## 🔧 Appwrite Configuration (`conf/conf.js`)
+## 🔧 Appwrite Configuration (`conf/conf.js`)  
 
 ```js
 const conf = {
@@ -59,7 +59,8 @@ const conf = {
 };
 
 export default conf;
-⚙️ Environment Variables
+
+## ⚙️ Environment Variables
 Create a .env file in the project root and add:
 
 ini
@@ -71,8 +72,9 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 Refer to .env.sample for the exact structure.
+```
 
-📦 Installation
+## 📦 Installation
 bash
 Copy
 Edit
@@ -96,7 +98,7 @@ Appwrite Services → Manage authentication & database actions
 
 Config Functions → Handle post CRUD & file upload/delete
 
-📝 Features in Detail
+## 📝 Features in Detail
 🔹 Authentication: Signup, Login, Logout using Appwrite Auth
 
 🔹 Post Management: Create, Edit, Delete, Fetch Posts
@@ -107,7 +109,7 @@ Config Functions → Handle post CRUD & file upload/delete
 
 🔹 State Management: Redux Toolkit
 
-🎨 UI & Styling
+## 🎨 UI & Styling
 Built with Tailwind CSS for a responsive and modern UI.
 
 🚀 Future Improvements
@@ -117,5 +119,5 @@ Built with Tailwind CSS for a responsive and modern UI.
 
 🔹 User profile pages
 
-🤝 Contributing
+## 🤝 Contributing
 Feel free to fork this repo and contribute via pull requests.
