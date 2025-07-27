@@ -1,48 +1,52 @@
-📖 React-Mini-Blog
-React-Mini-Blog is a mini blogging platform built with React.js, Tailwind CSS, and Appwrite as the backend.
-It allows users to create, edit, delete, and view posts, with authentication and file upload support.
-A rich text editor (TinyMCE) is integrated for better blog writing experience.
+# 📖 React-Mini-Blog  
 
-🚀 Features
-✅ User Authentication (Signup / Login / Logout) using Appwrite
+React-Mini-Blog is a **mini blogging platform** built with **React.js**, **Tailwind CSS**, and **Appwrite** as the backend.  
+It allows users to **create, edit, delete, and view posts**, with authentication and file upload support.  
+A rich text editor (**TinyMCE**) is integrated for better blog writing experience.  
 
-✅ Create, Edit, Delete, and View Blog Posts
+---
 
-✅ Upload and Manage Images using Appwrite Storage
+## 🚀 Features  
 
-✅ Rich Text Editing with TinyMCE
+- ✅ **User Authentication** (Signup / Login / Logout) using Appwrite  
+- ✅ **Create, Edit, Delete, and View Blog Posts**  
+- ✅ **Upload and Manage Images** using Appwrite Storage  
+- ✅ **Rich Text Editing** with TinyMCE  
+- ✅ **State Management** using Redux Toolkit (Auth Slice)  
+- ✅ **Responsive UI** with Tailwind CSS  
 
-✅ State Management using Redux Toolkit (Auth Slice)
+---
 
-✅ Responsive UI with Tailwind CSS
+## 🛠️ Tech Stack  
 
-🛠️ Tech Stack
-Frontend: React.js, Tailwind CSS
+| Frontend  | Backend | State Management | Editor |
+|-----------|---------|------------------|--------|
+| React.js  | Appwrite| Redux Toolkit    | TinyMCE|
 
-Backend: Appwrite
+---
 
-State Management: Redux Toolkit
+## 📂 Folder Structure  
 
-Editor: TinyMCE
-
-📂 Folder Structure
-bash
-Copy
-Edit
 React-Mini-Blog/
-│── components/       # Reusable UI components
-│── pages/            # Application pages (Home, Login, Signup, Post etc.)
-│── conf/             # Appwrite configuration (conf.js)
-│── appwrite/         # Appwrite services (auth, post, file functions)
-│   ├── config/       # Post & File handling functions
-│── store/            # Redux store (authSlice for login/logout)
-│── .env.sample       # Environment variables sample
+│── components/ # Reusable UI components
+│── pages/ # Application pages (Home, Login, Signup, Post etc.)
+│── conf/ # Appwrite configuration (conf.js)
+│── appwrite/ # Appwrite services (auth, post, file functions)
+│ ├── config/ # Post & File handling functions
+│── store/ # Redux store (authSlice for login/logout)
+│── .env.sample # Environment variables sample
 │── package.json
 │── README.md
-🔧 Appwrite Configuration (conf/conf.js)
-js
+
+yaml
 Copy
 Edit
+
+---
+
+## 🔧 Appwrite Configuration (`conf/conf.js`)  
+
+```js
 const conf = {
   appwriteUrl: String(import.meta.env.VITE_APPWRITE_URL),
   appwriteProjectId: String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
@@ -83,24 +87,28 @@ npm install
 # Run the project
 npm run dev
 🔐 Authentication & Data Flow
-AuthSlice (Redux) handles user login/logout state
+AuthSlice (Redux) → Handles user login/logout state
 
-Appwrite Services manage authentication & database actions
+Appwrite Services → Manage authentication & database actions
 
-Config Functions handle post CRUD & file upload/delete
+Config Functions → Handle post CRUD & file upload/delete
 
 📝 Features in Detail
 🔹 Authentication: Signup, Login, Logout using Appwrite Auth
+
 🔹 Post Management: Create, Edit, Delete, Fetch Posts
+
 🔹 File Storage: Upload, Preview, Delete Files
+
 🔹 Editor: Rich text content using TinyMCE
+
 🔹 State Management: Redux Toolkit
 
 🎨 UI & Styling
-Built with Tailwind CSS for responsive and modern UI.
+Built with Tailwind CSS for a responsive and modern UI.
 
 🚀 Future Improvements
-🔹 Categories/tags for posts
+🔹 Add categories/tags for posts
 
 🔹 Like & Comment system
 
@@ -108,4 +116,3 @@ Built with Tailwind CSS for responsive and modern UI.
 
 🤝 Contributing
 Feel free to fork this repo and contribute via pull requests.
-
