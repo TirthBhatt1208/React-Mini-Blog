@@ -8,7 +8,7 @@ A rich text editor (**TinyMCE**) is integrated for better blog writing experienc
 
 ## 🚀 Features  
 
-- ✅ **User Authentication** (Signup / Login / Logout) using Appwrite  
+- ✅ **User Authentication (Signup / Login / Logout)** using Appwrite  
 - ✅ **Create, Edit, Delete, and View Blog Posts**  
 - ✅ **Upload and Manage Images** using Appwrite Storage  
 - ✅ **Rich Text Editing** with TinyMCE  
@@ -19,24 +19,24 @@ A rich text editor (**TinyMCE**) is integrated for better blog writing experienc
 
 ## 🛠️ Tech Stack  
 
-| Frontend  | Backend | State Management | Editor |
-|-----------|---------|------------------|--------|
-| React.js  | Appwrite| Redux Toolkit    | TinyMCE|
+| Frontend | Backend  | State Management | Editor   |
+|----------|----------|------------------|----------|
+| React.js | Appwrite | Redux Toolkit    | TinyMCE  |
 
 ---
 
 ## 📂 Folder Structure  
 
 React-Mini-Blog/
-│── components/ # Reusable UI components
-│── pages/ # Application pages (Home, Login, Signup, Post etc.)
-│── conf/ # Appwrite configuration (conf.js)
-│── appwrite/ # Appwrite services (auth, post, file functions)
-│ ├── config/ # Post & File handling functions
-│── store/ # Redux store (authSlice for login/logout)
-│── .env.sample # Environment variables sample
-│── package.json
-│── README.md
+|│── components/ # Reusable UI components
+|│── pages/ # Application pages (Home, Login, Signup, Post etc.)
+|│── conf/ # Appwrite configuration (conf.js)
+|│── appwrite/ # Appwrite services (auth, post, file functions)
+|│ ├── config/ # Post & File handling functions
+|│── store/ # Redux store (authSlice for login/logout)
+|│── .env.sample # Environment variables sample
+|│── package.json
+|│── README.md
 
 yaml
 Copy
@@ -69,7 +69,10 @@ VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 Refer to .env.sample for the exact structure.
 
-📦 Installation
+
+---
+
+##  📦 Installation
 bash
 Copy
 Edit
@@ -93,7 +96,9 @@ Appwrite Services → Manage authentication & database actions
 
 Config Functions → Handle post CRUD & file upload/delete
 
-📝 Features in Detail
+---
+
+##  📝 Features in Detail
 🔹 Authentication: Signup, Login, Logout using Appwrite Auth
 
 🔹 Post Management: Create, Edit, Delete, Fetch Posts
@@ -104,7 +109,7 @@ Config Functions → Handle post CRUD & file upload/delete
 
 🔹 State Management: Redux Toolkit
 
-🎨 UI & Styling
+##  🎨 UI & Styling
 Built with Tailwind CSS for a responsive and modern UI.
 
 🚀 Future Improvements
@@ -114,5 +119,5 @@ Built with Tailwind CSS for a responsive and modern UI.
 
 🔹 User profile pages
 
-🤝 Contributing
+##  🤝 Contributing
 Feel free to fork this repo and contribute via pull requests.
