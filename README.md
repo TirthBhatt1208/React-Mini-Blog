@@ -73,14 +73,15 @@ VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 Refer to .env.sample for the exact structure.
 ```
-
+---
 ## 📦 Installation
 bash
 Copy
 Edit
+---
 # Clone the repository
 git clone https://github.com/your-username/React-Mini-Blog.git
-
+---
 # Go to project folder
 cd React-Mini-Blog
 
@@ -91,13 +92,14 @@ npm install
 
 # Run the project
 npm run dev
-🔐 Authentication & Data Flow
+---
+## 🔐 Authentication & Data Flow
 AuthSlice (Redux) → Handles user login/logout state
 
 Appwrite Services → Manage authentication & database actions
 
 Config Functions → Handle post CRUD & file upload/delete
-
+---
 ## 📝 Features in Detail
 🔹 Authentication: Signup, Login, Logout using Appwrite Auth
 
@@ -108,7 +110,7 @@ Config Functions → Handle post CRUD & file upload/delete
 🔹 Editor: Rich text content using TinyMCE
 
 🔹 State Management: Redux Toolkit
-
+---
 ## 🎨 UI & Styling
 Built with Tailwind CSS for a responsive and modern UI.
 
@@ -118,6 +120,6 @@ Built with Tailwind CSS for a responsive and modern UI.
 🔹 Like & Comment system
 
 🔹 User profile pages
-
+---
 ## 🤝 Contributing
 Feel free to fork this repo and contribute via pull requests.
