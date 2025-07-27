@@ -5,10 +5,15 @@ A rich text editor (TinyMCE) is integrated for better blog writing experience.
 
 🚀 Features
 ✅ User Authentication (Signup / Login / Logout) using Appwrite
+
 ✅ Create, Edit, Delete, and View Blog Posts
+
 ✅ Upload and Manage Images using Appwrite Storage
+
 ✅ Rich Text Editing with TinyMCE
+
 ✅ State Management using Redux Toolkit (Auth Slice)
+
 ✅ Responsive UI with Tailwind CSS
 
 🛠️ Tech Stack
@@ -34,7 +39,7 @@ React-Mini-Blog/
 │── .env.sample       # Environment variables sample
 │── package.json
 │── README.md
-🔧 conf/conf.js
+🔧 Appwrite Configuration (conf/conf.js)
 js
 Copy
 Edit
@@ -78,26 +83,29 @@ npm install
 # Run the project
 npm run dev
 🔐 Authentication & Data Flow
-AuthSlice (Redux) handles user login/logout state.
+AuthSlice (Redux) handles user login/logout state
 
-Appwrite Services manage user authentication & database actions.
+Appwrite Services manage authentication & database actions
 
-Config Functions handle create/update/delete posts and file uploads.
+Config Functions handle post CRUD & file upload/delete
 
 📝 Features in Detail
-🔹 Authentication: SignUp, Login, Logout using Appwrite Auth
+🔹 Authentication: Signup, Login, Logout using Appwrite Auth
 🔹 Post Management: Create, Edit, Delete, Fetch Posts
-🔹 File Storage: Upload, Preview, and Delete Files
+🔹 File Storage: Upload, Preview, Delete Files
 🔹 Editor: Rich text content using TinyMCE
-🔹 State Management: Redux Toolkit (Auth state, User state)
+🔹 State Management: Redux Toolkit
 
 🎨 UI & Styling
 Built with Tailwind CSS for responsive and modern UI.
 
 🚀 Future Improvements
-🔹 Add categories/tags for posts
+🔹 Categories/tags for posts
+
 🔹 Like & Comment system
+
 🔹 User profile pages
 
 🤝 Contributing
-Feel free to fork this repo and contribute via PRs!
+Feel free to fork this repo and contribute via pull requests.
+
